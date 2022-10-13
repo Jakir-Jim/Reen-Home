@@ -1,0 +1,427 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+}
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.header-section {
+    width: 100%;
+
+}
+.top-header {
+    width: 100%;
+    padding: 10px 0;
+    background: #f5f7fa;
+
+}
+.top-header .info {
+    width: 100%;
+    padding: 0;
+    margin: 0 !important;
+}
+.top-header .info li {
+    list-style: none;
+    display: inline-block;
+}
+.top-header .info li a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 0 15px;
+    color: #506a85;
+    transition: 1s ease-in;
+}
+.top-header .info li a .fa {
+    margin: 0 5px 0 0;
+}
+.top-header .info li a:focus,
+.top-header .info li a:hover {
+    color: #00bc9c;
+}
+
+.top-header .social-icons {
+    width: 100%;
+    padding: 0;
+    margin: 0 !important;
+    text-align: right;
+}
+.top-header .social-icons li {
+    list-style: none;
+    display: inline-block;
+}
+.top-header .social-icons li a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 0 15px;
+    color: #506a85;
+    transition: 1s ease-in;
+}
+.top-header .social-icons li a .fa {
+    margin: 0 5px 0 0;
+}
+.top-header .info li a:focus,
+.top-header .social-icons li a:hover {
+    color: #00bc9c;
+}
+
+.main-menu {
+    width: 100%;
+    padding: 20px 0;
+}
+.main-menu .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 0 35px;
+    color: #506a85;
+}
+.main-menu .navbar-nav .nav-item .nav-link:focus,
+.main-menu .navbar-nav .nav-item .nav-link:hover {
+    color: #00bc9c;
+    transition: 1s ease-in;
+}
+
+.main-menu .fa-search {
+    font-size: 14px;
+    font-weight: 700;
+    color: #506a85;
+}
+
+.slider {
+    width: 100%;
+}
+.slider .carousel .carousel-item .carousel-caption {
+    bottom: 30%;
+    text-align: unset;
+}
+.slider .carousel .carousel-item .carousel-caption h2 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 62px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.slider .carousel .carousel-item .carousel-caption p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #a3b1bf;
+    margin: 0 0 60px;
+}
+.slider .carousel .carousel-item .carousel-caption .btn-success {
+    padding: 15px 35px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    background: #00bc9c;
+    border: 1px solid #00bc9c;
+    border-radius: 2px;
+    transition: 1s;
+
+}
+.slider .carousel .carousel-item .carousel-caption .btn-success:focus,
+.slider .carousel .carousel-item .carousel-caption .btn-success:hover {
+    color: #00bc9c;
+    background: transparent;
+    border: 1px solid #00bc9c;
+    border-radius: 2px;
+}
+
+.slider .carousel .carousel-item .text-right {
+    text-align: right;
+}
+.slider .carousel .carousel-item .text-right p {
+    color: #fff;
+}
+
+.slider .carousel .carousel-item .carousel-caption h2 span {
+    background-color: #506a85;
+    line-height: 66px;
+}
+
+.who-we-are {
+    width: 100%;
+    padding: 80px 0;
+}
+.who-we-are .title {
+    width: 100%;
+    padding: 0 0 80px;
+    text-align: center;
+}
+.who-we-are .title h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 2px;
+    color: #506a85;
+}
+.who-we-are .title p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #a3b1bf;
+}
+.who-we-are .who-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #506a85;
+    margin: 0 0 10px;
+}
+.who-we-are .who-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #a3b1bf;
+}
+
+.latest-work {
+    width: 100%;
+    padding: 80px 0;
+    background: #f2f5f7;
+}
+
+.latest-work .title {
+    width: 100%;
+    padding: 0 0 80px;
+    text-align: center;
+}
+.latest-work .title h2 {
+    font: size 52px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 2px;
+    color: #506a85;
+}
+.latest-work .title p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #a3b1bf;
+}
+.latest-work .card {
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+.latest-work .card .card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.latest-work .card .card-body {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+}
+.latest-work .card .card-title {
+    font: size 22px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #506a85;
+    margin: 0 0 3px;
+}
+.latest-work .card .card-text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #a3b1bf;
+}
+
+.latest-work .owl-carousel {
+    width: 100%;
+    margin: 80px 0 0;
+}
+
+.get-touch {
+    width: 100%;
+    padding: 100px;
+    text-align: center;
+}
+.get-touch h2 {
+    font: size 52px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 2px;
+    color: #506a85;
+    margin: 0 0 15px;
+}
+.get-touch p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #a3b1bf;
+    margin: 0 0 30px;
+}
+.get-touch .btn-success {
+    padding: 15px 35px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    background: #00bc9c;
+    border: 1px solid #00bc9c;
+    border-radius: 2px;
+    transition: 1s;
+}
+.get-touch .btn-success:focus,
+.get-touch .btn-success:hover {
+    color: #00bc9c;
+    background: transparent;
+    border: 1px solid #00bc9c;
+    border-radius: 2px;
+}
+.footer {
+    width: 100%;
+}
+.footer .widget-section {
+    width: 100%;
+    padding: 80px 0;
+    background: #2f4052;
+}
+.footer .widget {
+    width: 100%;
+}
+.footer .widget h4 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    margin: 0 0 25px;
+}
+
+.footer .widget .flogo {
+    margin: 0 0 10px;
+}
+.footer .widget P {
+    font-size: 14px;
+    line-height: 24px;
+    color: #8c9aa8;
+    padding: 10px 20px 0 0;
+}
+.footer .widget .btn-link {
+    padding: 0;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #a3b1bf;
+}
+.footer .widget .btn-link:focus,
+.footer .widget .btn-link:hover {
+    color: #fff;
+}
+
+.footer .widget .btn-link .fa-long-arrow-right {
+    margin: 0 0 0 10px;
+}
+
+.padd {
+    padding-right: 2px !important;
+}
+.widget {
+    width: 100%;
+}
+
+.inner-widget {
+    width: 100%;
+    padding: 0 15px 0 20px;
+}
+.widget ul {
+    padding: 0;
+    margin: 10px 0 0;
+}
+.widget ul li {
+    list-style: none;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 5px;
+    color: #a3b1bf;
+}
+.widget .subscribe {
+    width: 100%;
+    position: relative;
+}
+.widget .subscribe .form-control {
+    background: #4e5c6c;
+    border: 1px solid #4e5c6c;
+    padding: 15px;
+    font-size: 14px;
+    color: #828e99;
+}
+.widget .subscribe .btn-success {
+    position: absolute;
+    top: 10%;
+    right: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    background: #00bc9c;
+    border: 1px solid #00bc9c;
+    padding: 10px 12px;
+
+}
+.widget .subscribe .btn-success:focus,
+.widget .subscribe .btn-success:hover {
+    color: #00bc9c;
+    background: transparent;
+    border: 1px solid #00bc9c;
+    transition: 1s;
+}
+.main-footer {
+    width: 100%;
+    background: #283645;
+    padding: 20px 0 15px;
+}
+.main-footer p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #707e8c;
+}
+.main-footer ul {
+    width: 100%;
+}
+.main-footer ul li {
+    display: inline-block;
+    list-style: none;
+}
+.main-footer ul li a {
+    text-decoration: none;
+    color: #707e8c;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 600;
+    padding: 0 5px 0 0;
+}
+.main-footer .topscroll {
+    text-align: right;
+}
